@@ -17,7 +17,7 @@ const PaginaPrincipal =()=>{
         <div className={styles.containerVideo}>
           <video 
           className={styles.video}
-          src="/historia-suiza-tropical.webm" 
+          src="/suizatropical/historia-suiza-tropical.webm" 
           autoPlay 
           loop 
           muted />
@@ -31,7 +31,7 @@ const PaginaPrincipal =()=>{
             <p className={styles.parrafo}>Durante { añosServicioHumus } años hemos acompañado a productores de Portuguesa, ofreciendo una alternativa orgánica, sostenible y eficiente que cuida la tierra y potencia su rendimiento.</p>
           </div>
           <div className={styles.containerFooter}>
-            <img src="/lombriz.webp" alt="Logo" className={styles.img} />
+            <img src="/suizatropical/lombriz.webp" alt="Logo" className={styles.img} />
             <div className={styles.containerButton}>
               <a href="https://api.whatsapp.com/send?phone=584125796895&text=Quiero%20m%C3%A1s%20info" target="_blank" rel="noopener noreferrer" className={styles.button}>Contactar</a>
             </div>

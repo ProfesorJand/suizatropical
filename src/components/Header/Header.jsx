@@ -8,24 +8,24 @@ const Header = ({ pathname: propPathname }) => {
   const currentPath = decodeURIComponent(pathname).replace(/\/$/, '') || '/';
   
   const links = [
-    { href: "/", label: "Suiza Tropical" },
-    { href: "/información", label: "Información" },
+    { href: "/suizatropical/", label: "Suiza Tropical" },
+    { href: "/suizatropical/información", label: "Información" },
   ];
 
   const redes = [
     {
       href: "https://www.instagram.com/suizatropical/", 
-      image: "/instagram.webp"
+      image: "/suizatropical/instagram.webp"
     },
     {
       href: "https://api.whatsapp.com/send?phone=584125796895&text=Quiero%20más%20info", 
-      image: "/whatsapp.webp"
+      image: "/suizatropical/whatsapp.webp"
     }
   ]
   return (
     <nav className={styles.container}>
       <div className={styles.containerLogo}>
-          <img src="/logo.webp" alt="Logo Suiza Tropical" className={styles.logo} />
+          <img src="/suizatropical/logo.webp" alt="Logo Suiza Tropical" className={styles.logo} />
       </div>
       
       <ul className={`${styles.containerMenu} ${isMenuOpen ? styles.mobileMenu : ''}`}>
