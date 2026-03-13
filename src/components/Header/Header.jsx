@@ -8,7 +8,7 @@ const Header = ({ pathname: propPathname }) => {
   const currentPath = decodeURIComponent(pathname).replace(/\/$/, '') || '/';
   
   const links = [
-    { href: "/suizatropical/", label: "Suiza Tropical" },
+    { href: "/suizatropical", label: "Suiza Tropical" },
     { href: "/suizatropical/información", label: "Información" },
   ];
 
@@ -25,7 +25,7 @@ const Header = ({ pathname: propPathname }) => {
   return (
     <nav className={styles.container}>
       <div className={styles.containerLogo}>
-          <img src="/suizatropical/logo.webp" alt="Logo Suiza Tropical" className={styles.logo} />
+          <img src="/suizatropical/logo.png" alt="Logo Suiza Tropical" className={styles.logo} />
       </div>
       
       <ul className={`${styles.containerMenu} ${isMenuOpen ? styles.mobileMenu : ''}`}>
